@@ -2,38 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>James Tuling | VA for Coaches</title>
+  <title>Lenny Jean Sancover | VA for Coaches</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-slate-900 text-slate-300 overflow-x-hidden">
 
+<!-- FIXED ANIMATED BACKGROUND -->
+<div class="fixed inset-0 -z-10">
+  <div class="absolute inset-0 bg-gradient-to-br from-orange-500/20 via-slate-900 to-indigo-600/20 animate-gradient"></div>
+  <div class="absolute inset-0 noise"></div>
+</div>
+
 <!-- NAV -->
 <nav class="fixed w-full z-50 backdrop-blur bg-slate-900/80 border-b border-slate-800">
   <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between">
-    <span class="text-white font-bold">James Tuling</span>
+    <span class="text-white font-bold">Lenny Jean Sancover</span>
     <div class="space-x-6">
       <a href="#services" class="hover:text-orange-400 transition">Services</a>
       <a href="#projects" class="hover:text-orange-400 transition">Projects</a>
+      <a href="#tools" class="hover:text-orange-400 transition">Tools</a>
       <a href="#contact" class="hover:text-orange-400 transition">Contact</a>
     </div>
   </div>
 </nav>
 
 <!-- HERO -->
-<section class="min-h-screen flex items-center hero-animate pt-20">
+<section class="min-h-screen flex items-center hero-animate pt-24">
   <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-    <!-- PROFILE IMAGE -->
+    <!-- PROFILE -->
     <div class="flex justify-center md:justify-end order-1 md:order-2">
       <div class="relative">
         <div class="absolute -inset-1 bg-orange-500/20 blur-2xl rounded-full"></div>
-        <img
-          src="https://i.pravatar.cc/400"
-          alt="Profile"
-          class="relative w-60 h-60 md:w-72 md:h-72 object-cover rounded-full border-4 border-orange-500 shadow-xl float"
-        />
+        <img src="https://i.pravatar.cc/400"
+             class="relative w-60 h-60 md:w-72 md:h-72 rounded-full border-4 border-orange-500 shadow-xl float" />
       </div>
     </div>
 
@@ -46,7 +50,7 @@
         Virtual Assistant for Coaches & Consultants
       </h1>
       <p class="mt-6 text-slate-400">
-        I help you manage CRM systems, scheduling, and operations — so you can focus on coaching.
+        I help manage CRM systems, scheduling, automations, and digital operations.
       </p>
       <div class="mt-8 space-x-4">
         <a href="#contact"
@@ -68,22 +72,9 @@
   <div class="max-w-6xl mx-auto px-6">
     <h2 class="text-3xl font-bold text-white mb-12">Services</h2>
     <div class="grid md:grid-cols-3 gap-6">
-
-      <div class="card">
-        <h3 class="title">CRM Setup</h3>
-        <p>Practice Better onboarding, workflows, automation.</p>
-      </div>
-
-      <div class="card">
-        <h3 class="title">Scheduling</h3>
-        <p>Calendar management, bookings, reminders.</p>
-      </div>
-
-      <div class="card">
-        <h3 class="title">Social Media</h3>
-        <p>Post scheduling, DM organization.</p>
-      </div>
-
+      <div class="card"><h3 class="title">CRM Setup</h3><p>Practice Better, automation, workflows.</p></div>
+      <div class="card"><h3 class="title">Scheduling</h3><p>Calendly, reminders, bookings.</p></div>
+      <div class="card"><h3 class="title">Social Media</h3><p>Content scheduling and DMs.</p></div>
     </div>
   </div>
 </section>
@@ -92,112 +83,79 @@
 <section id="projects" class="py-24 border-t border-slate-800 reveal">
   <div class="max-w-6xl mx-auto px-6">
     <h2 class="text-3xl font-bold text-white mb-12">Projects</h2>
-
     <div class="grid md:grid-cols-2 gap-8">
-
       <div class="card">
         <h3 class="title">CRM for Wellness Coach</h3>
-        <p>
-          Built Practice Better system, automated onboarding and scheduling.
-        </p>
-        <span class="text-orange-400 text-sm mt-2 block">
-          Result: 40% less admin work
-        </span>
+        <p>Automated onboarding + scheduling.</p>
+        <span class="text-orange-400 text-sm block mt-2">40% less admin work</span>
       </div>
-
       <div class="card">
         <h3 class="title">Excel Client Tracker</h3>
-        <p>
-          Created dashboards to monitor client progress and payments.
-        </p>
-        <span class="text-orange-400 text-sm mt-2 block">
-          Result: Real-time reporting
-        </span>
+        <p>Dashboards for progress & payments.</p>
+        <span class="text-orange-400 text-sm block mt-2">Real-time reporting</span>
       </div>
+    </div>
+  </div>
+</section>
 
+<!-- TOOLS -->
+<section id="tools" class="py-24 border-t border-slate-800 reveal">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-white mb-12">Tools I Use</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="tool"><img src="https://cdn.simpleicons.org/practicebetter/white"><span>Practice Better</span></div>
+      <div class="tool"><img src="https://cdn.simpleicons.org/slack/white"><span>Slack</span></div>
+      <div class="tool"><img src="https://cdn.simpleicons.org/asana/white"><span>Asana</span></div>
+      <div class="tool"><img src="https://cdn.simpleicons.org/activecampaign/white"><span>ActiveCampaign</span></div>
+      <div class="tool"><img src="https://cdn.simpleicons.org/twilio/white"><span>Sales Message</span></div>
+      <div class="tool"><img src="https://cdn.simpleicons.org/sproutsocial/white"><span>Sprout Social</span></div>
+      <div class="tool"><img src="https://cdn.simpleicons.org/calendly/white"><span>Calendly</span></div>
+      <div class="tool"><img src="https://cdn.simpleicons.org/vimeo/white"><span>Vimeo</span></div>
+      <div class="tool"><img src="https://cdn.simpleicons.org/canva/white"><span>Canva</span></div>
+      <div class="tool"><img src="https://cdn.simpleicons.org/samsung/white"><span>Samsung Food</span></div>
+      <div class="tool"><img src="https://cdn.simpleicons.org/soundcloud/white"><span>SoundCloud</span></div>
+      <div class="tool"><img src="https://cdn.simpleicons.org/zapier/white"><span>Zapier</span></div>
     </div>
   </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="py-24 border-t border-slate-800 reveal">
-  <div class="max-w-6xl mx-auto px-6 text-center">
-    <h2 class="text-3xl font-bold text-white mb-4">
-      Let’s Work Together
-    </h2>
-    <p class="text-slate-400 mb-8">
-      Ready to organize your business?
-    </p>
-    <a class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold transition-all hover:scale-105">
-      Schedule a Call
-    </a>
-  </div>
+<section id="contact" class="py-24 border-t border-slate-800 reveal text-center">
+  <h2 class="text-3xl font-bold text-white mb-4">Let’s Work Together</h2>
+  <p class="text-slate-400 mb-8">Ready to scale your business?</p>
+  <a class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold transition-all hover:scale-105">
+    Schedule a Call
+  </a>
 </section>
 
-<!-- FOOTER -->
 <footer class="py-8 border-t border-slate-800 text-center text-slate-500">
-  © 2026 James Tuling
+  © 2026 Lenny Jean Sancover
 </footer>
 
-<!-- STYLES -->
 <style>
-.card {
-  background: #1e293b;
-  border: 1px solid #334155;
-  border-radius: 1rem;
-  padding: 1.5rem;
-  transition: all 0.3s ease;
-}
-.card:hover {
-  transform: translateY(-8px);
-  border-color: #f97316;
-  box-shadow: 0 20px 40px rgba(249, 115, 22, 0.2);
-}
-.title {
-  color: white;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-.reveal {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: all 0.8s ease;
-}
-
-/* Hero entrance */
-@keyframes heroIn {
-  from { opacity: 0; transform: translateY(30px) scale(0.98); }
-  to { opacity: 1; transform: translateY(0) scale(1); }
-}
-.hero-animate {
-  animation: heroIn 1s ease-out forwards;
-}
-
-/* Floating profile */
-@keyframes float {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0); }
-}
-.float {
-  animation: float 6s ease-in-out infinite;
-}
+.card,.tool{background:#1e293b;border:1px solid #334155;border-radius:1rem;padding:1.5rem;transition:.3s;display:flex;flex-direction:column;align-items:center;gap:12px}
+.card:hover,.tool:hover{transform:translateY(-8px);border-color:#f97316;box-shadow:0 20px 40px rgba(249,115,22,.2)}
+.title{color:white;font-weight:600}
+.tool img{width:40px;filter:invert(1)}
+.reveal{opacity:0;transform:translateY(40px);transition:.8s}
+@keyframes diagonal{0%{background-position:0% 0%}50%{background-position:100% 100%}100%{background-position:0% 0%}}
+.animate-gradient{background-size:400% 400%;animation:diagonal 8s ease-in-out infinite}
+.noise{background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");opacity:.25}
+.float{animation:float 6s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px)}}
+.hero-animate{animation:heroIn 1s ease-out forwards}
+@keyframes heroIn{from{opacity:0;transform:translateY(30px)}to{opacity:1}}
 </style>
 
-<!-- SCROLL REVEAL -->
 <script>
-const reveals = document.querySelectorAll(".reveal");
-
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.style.opacity = 1;
-      entry.target.style.transform = "translateY(0)";
+document.querySelectorAll(".reveal").forEach(el=>{
+  new IntersectionObserver(e=>{
+    if(e[0].isIntersecting){
+      el.style.opacity=1;
+      el.style.transform="translateY(0)";
     }
-  });
+  }).observe(el)
 });
-
-reveals.forEach(el => observer.observe(el));
 </script>
 
 </body>
