@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Lenny Jean Sancover | VA for Coaches</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="/assets/personalicon.png" />
   </head>
 
   <body class="bg-slate-900 text-slate-300 overflow-x-hidden">
@@ -196,6 +197,29 @@
       </div>
     </section>
 
+    <!-- TESTIMONIAL -->
+    <section id="testimonials" class="py-24 border-t border-slate-800 reveal">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold text-white mb-12">Client Feedback</h2>
+
+        <div class="flex justify-center">
+          <div class="card max-w-xl">
+            <p class="text-slate-300 italic text-lg leading-relaxed">
+              “Lenny is highly reliable and consistently delivers quality work
+              on time. It’s a huge relief not having to micromanage and knowing
+              everything is handled smoothly and professionally.”
+            </p>
+
+            <div class="mt-6">
+              <p class="text-white font-semibold text-lg">THRIVE FROM THE INSIDE</p>
+              <p class="text-slate-400 text-sm">Shannon Hagel</p>
+              <p class="text-slate-400 text-sm"> Founder </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- TOOLS -->
     <section id="tools" class="py-24 border-t border-slate-800 reveal">
       <div class="max-w-6xl mx-auto px-6">
@@ -285,7 +309,7 @@
       }
       .tool img {
         width: 40px;
-        filter: invert(1);
+        /* filter: invert(1); */
       }
       .reveal {
         opacity: 0;
@@ -344,6 +368,11 @@
           opacity: 1;
           transform: translateY(0);
         }
+      }
+
+      #testimonials .card {
+        border: 1px solid #f97316;
+        box-shadow: 0 0 40px rgba(249, 115, 22, 0.15);
       }
     </style>
 
